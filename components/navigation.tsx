@@ -21,18 +21,17 @@ export function Navigation() {
     <nav className="fixed top-0 w-full z-50 bg-background/80 backdrop-blur-md border-b border-border/50">
       <div className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
         <Link href="/" className="text-2xl font-bold bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent hover:opacity-80 transition-opacity">
-          Portfolio
+          PortFolio
         </Link>
         
         <div className="flex items-center gap-8">
           <div className="hidden md:flex gap-8">
             <Link href="/" className="text-foreground/80 hover:text-foreground transition-colors">Home</Link>
             <Link href="/projects" className="text-foreground/80 hover:text-foreground transition-colors">Projects</Link>
-            <a href="#contact-section" className="text-foreground/80 hover:text-foreground transition-colors">Contact</a>
           </div>
           
           <Link
-            href="#contact"
+            href="#contact-section"
             className="hidden md:inline-block px-6 py-2 bg-gradient-to-r from-primary to-accent text-white rounded-lg font-semibold hover:shadow-lg hover:shadow-primary/30 transition-all duration-300 transform hover:scale-105 active:scale-95"
           >
             Hire Me

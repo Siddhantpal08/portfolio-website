@@ -24,10 +24,10 @@ export function Contact() {
   }
 
   const socials = [
-    { name: 'Instagram', icon: Instagram, url: '#' },
-    { name: 'LinkedIn', icon: Linkedin, url: '#' },
-    { name: 'GitHub', icon: Github, url: '#' },
-    { name: 'Twitter', icon: Twitter, url: '#' },
+    { name: 'Instagram', icon: Instagram, url: 'https://www.instagram.com/siddhantpals' },
+    { name: 'LinkedIn', icon: Linkedin, url: 'https://www.linkedin.com/in/siddhant-pal-92b71316a' },
+    { name: 'GitHub', icon: Github, url: 'https://github.com/Siddhantpal08/' },
+    { name: 'Twitter', icon: Twitter, url: 'https://x.com/Siddhantpal44' },
   ]
 
   return (
