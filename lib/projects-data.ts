@@ -66,20 +66,20 @@ export const PROJECTS: Project[] = [
     tags: ['Guide', 'Premiere', 'Workflow'],
     repoLink: 'https://github.com/Siddhantpal08/Intermediate/tree/main/docs/Video-Editing-Guide',
     demoLink: 'https://siddhantpal08.github.io/Intermediate/Video-Editing-Guide/',
-    image: '/projects/video.png',
+    image: '/projects/vidportfolio.png',
   },
   {
-    id: 'resp-video-portfolio',
-    title: 'Responsive Video Guide Portfolio',
+    id: 'resp-portfolio',
+    title: 'Responsive Portfolio',
     description:
-      'Portfolio site showing editing projects and case studies.',
+      'Portfolio site showing projects, experience and skills',
     longDescription:
-      'A responsive portfolio showcasing video editing projects with embedded players, case notes and downloadable assets.',
-    category: 'guides',
+      'A responsive portfolio showcasing projects, experience and skills',
+    category: 'coding',
     icon: '🌐',
     tags: ['HTML', 'CSS', 'Responsive'],
     demoLink: 'https://siddhantpal08.github.io/Intermediate/Video-Editing-Guide/responsive%20portfolio%20website/index.html',
-    repoLink: 'https://github.com/Siddhantpal08/3d-portfolio',
+    repoLink: 'https://github.com/Siddhantpal08/Intermediate/tree/main/docs/Video-Editing-Guide/responsive%20portfolio%20website',
     image: '/projects/video-resume.png',
   },
   {
@@ -94,10 +94,11 @@ export const PROJECTS: Project[] = [
     tags: ['Forms', 'Validation', 'Node'],
     repoLink: 'https://github.com/Siddhantpal08/Intermediate/tree/main/docs/Video-Editing-Guide/contact%20form',
     demoLink: 'https://siddhantpal08.github.io/Intermediate/Video-Editing-Guide/contact%20form/cf.html',
+    image: '/projects/contact.png'
   },
   {
     id: 'code4tech',
-    title: 'Code-4-Tech Hackathon Project',
+    title: 'Innomatics-Resume-Analyzer',
     description:
       'Hackathon project showing rapid prototyping and teamwork.',
     longDescription:
@@ -132,9 +133,9 @@ export const PROJECTS: Project[] = [
     category: '3d-animation',
     icon: '🎨',
     tags: ['Blender', '3D', 'Animation'],
-    repoLink: '',
+    repoLink: 'https://github.com/Siddhantpal08/3d-portfolio',
     video: 'https://www.youtube.com/watch?v=3D_VIDEO_ID',
-    images: ['/projects/3d-1.png'],
+    image: '/projects/portfolio.jpg',
   },
   {
     id: 'internship-tasks',
@@ -146,7 +147,7 @@ export const PROJECTS: Project[] = [
     category: 'coding',
     icon: '💼',
     tags: ['Internship', 'Web Dev'],
-    repoLink: 'https://github.com/yourname/internship-tasks',
+    repoLink: 'https://github.com/Siddhantpal08/internship-tasks',
   },
   {
     id: 'laptop-recommender',
@@ -158,8 +159,8 @@ export const PROJECTS: Project[] = [
     category: 'coding',
     icon: '💻',
     tags: ['JS', 'Filtering'],
-    demoLink: 'https://laptop-recommender.example.com',
-    repoLink: 'https://github.com/yourname/laptop-recommender',
+    demoLink: 'https://siddhantpal08.github.io/Intermediate/Laptop-Recommendation/',
+    repoLink: 'https://github.com/Siddhantpal08/Intermediate/tree/main/docs/Laptop-Recommendation',
   },
   {
     id: 'megablog',
@@ -171,8 +172,8 @@ export const PROJECTS: Project[] = [
     category: 'coding',
     icon: '📰',
     tags: ['Fullstack', 'Blog'],
-    repoLink: 'https://github.com/yourname/megablog',
-    demoLink: 'https://megablog.example.com',
+    repoLink: 'https://github.com/Siddhantpal08/Intermediate/tree/main/docs/MegaBlog',
+    demoLink: 'https://siddhantpal08.github.io/Intermediate/MegaBlog/',
   },
   {
     id: 'ecommerce',
