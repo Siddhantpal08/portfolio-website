@@ -35,7 +35,7 @@ export const PROJECTS: Project[] = [
     category: 'coding',
     icon: '📺',
     tags: ['React', 'API', 'Responsive'],
-    image: '/projects/mytube-thumb.png',
+    image: '/projects/mytube.png',
     images: ['/projects/mytube-1.png', '/projects/mytube-2.png'],
     repoLink: 'https://github.com/Siddhantpal08/MyTube',
     demoLink: 'https://my-tube-sand.vercel.app/',
@@ -51,7 +51,7 @@ export const PROJECTS: Project[] = [
     category: 'coding',
     icon: '🤖',
     tags: ['Python', 'PyQt5', 'Voice'],
-    image: '/projects/jarvis-thumb.png',
+    image: '/projects/jarvis.png',
     repoLink: 'https://github.com/Siddhantpal08/MyJarvis-Releases',
   },
   {
@@ -66,7 +66,7 @@ export const PROJECTS: Project[] = [
     tags: ['Guide', 'Premiere', 'Workflow'],
     repoLink: 'https://github.com/Siddhantpal08/Intermediate/tree/main/docs/Video-Editing-Guide',
     demoLink: 'https://siddhantpal08.github.io/Intermediate/Video-Editing-Guide/',
-    image: '/projects/video-guide-thumb.png',
+    image: '/projects/video.png',
   },
   {
     id: 'resp-video-portfolio',
@@ -80,7 +80,7 @@ export const PROJECTS: Project[] = [
     tags: ['HTML', 'CSS', 'Responsive'],
     demoLink: 'https://siddhantpal08.github.io/Intermediate/Video-Editing-Guide/responsive%20portfolio%20website/index.html',
     repoLink: 'https://github.com/Siddhantpal08/3d-portfolio',
-    image: '/projects/video-portfolio.png',
+    image: '/projects/video-resume.png',
   },
   {
     id: 'contact-form',
@@ -106,6 +106,8 @@ export const PROJECTS: Project[] = [
     icon: '🏆',
     tags: ['Hackathon', 'MVP'],
     repoLink: 'https://github.com/Siddhantpal08/innomatics-resume-analyzer',
+    demoLink: 'https://innomatics-resume-analyzer.streamlit.app/',
+    image: '/projects/resume.png',
   },
   {
     id: 'notepadx',
@@ -118,7 +120,7 @@ export const PROJECTS: Project[] = [
     icon: '📝',
     tags: ['Tauri', 'React', 'SQLite'],
     repoLink: 'https://github.com/Siddhantpal08/Advanced/tree/main/notepadx',
-    demoLink: 'https://notepadx.example.com',
+    image: '/projects/todo.jpg',
   },
   {
     id: '3d-portfolio',
