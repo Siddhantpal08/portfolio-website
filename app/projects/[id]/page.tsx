@@ -5,7 +5,8 @@ import { PROJECTS } from '@/lib/projects-data'
 import { ArrowRight, Github } from 'lucide-react'
 
 interface Props {
-  params: { id: string }
+  // params may be a Promise in dev (Turbopack) so allow Promise<{ id: string }>
+  params: { id: string } | Promise<{ id: string }>
 }
 
 function youtubeEmbedSrc(url?: string) {
@@ -17,8 +18,10 @@ function youtubeEmbedSrc(url?: string) {
   return null
 }
 
-export default function ProjectDetailPage({ params }: Props) {
-  const project = PROJECTS.find((p) => p.id === params.id)
+export default async function ProjectDetailPage({ params }: Props) {
+  // unwrap params which might be a Promise in dev
+  const resolvedParams = await params
+  const project = PROJECTS.find((p) => p.id === resolvedParams.id)
 
   if (!project) return notFound()
 
@@ -34,7 +37,7 @@ export default function ProjectDetailPage({ params }: Props) {
         <h1 className="text-4xl font-bold mb-2">{project.title}</h1>
         <p className="text-muted-foreground max-w-2xl">{project.description}</p>
         <div className="mt-4 flex flex-wrap gap-2">
-          {project.tags.map((t) => (
+          {(project.tags ?? []).map((t) => (
             <span key={t} className="px-3 py-1 rounded-full bg-primary/10 text-primary text-sm">
               {t}
             </span>
