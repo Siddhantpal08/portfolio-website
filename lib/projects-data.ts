@@ -79,7 +79,7 @@ export const PROJECTS: Project[] = [
     icon: '🌐',
     tags: ['HTML', 'CSS', 'Responsive'],
     demoLink: 'https://siddhantpal08.github.io/Intermediate/Video-Editing-Guide/responsive%20portfolio%20website/index.html',
-    repoLink: 'https://github.com/Siddhantpal08/Intermediate/tree/main/docs/Video-Editing-Guide/responsive%20portfolio%20website',
+    repoLink: 'https://github.com/Siddhantpal08/3d-portfolio',
     image: '/projects/video-portfolio.png',
   },
   {
@@ -117,7 +117,7 @@ export const PROJECTS: Project[] = [
     category: 'coding',
     icon: '📝',
     tags: ['Tauri', 'React', 'SQLite'],
-    repoLink: 'https://github.com/yourname/notepadx',
+    repoLink: 'https://github.com/Siddhantpal08/Advanced/tree/main/notepadx',
     demoLink: 'https://notepadx.example.com',
   },
   {
