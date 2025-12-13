@@ -19,9 +19,10 @@ export const CATEGORIES = [
   'all',
   'coding',
   'video-editing',
-  'guides',
   'ai',
   '3d-animation',
+  'Data-Analysis',
+  'Graphic-Designs',
 ]
 
 export const PROJECTS: Project[] = [
@@ -61,7 +62,7 @@ export const PROJECTS: Project[] = [
       'Beginner-friendly video editing tutorial with practical workflows.',
     longDescription:
       'A step-by-step guide to editing (Premiere/DaVinci) focused on workflow, color grading and export settings. Includes example project files and templates.',
-    category: 'guides',
+    category: 'coding',
     icon: '🎬',
     tags: ['Guide', 'Premiere', 'Workflow'],
     repoLink: 'https://github.com/Siddhantpal08/Intermediate/tree/main/docs/Video-Editing-Guide',
@@ -103,7 +104,7 @@ export const PROJECTS: Project[] = [
       'Hackathon project showing rapid prototyping and teamwork.',
     longDescription:
       'Code-4-Tech entry — features quick MVP, API integration and a simple deploy. Good demo of hackathon code quality and collaboration.',
-    category: 'coding',
+    category: 'ai',
     icon: '🏆',
     tags: ['Hackathon', 'MVP'],
     repoLink: 'https://github.com/Siddhantpal08/innomatics-resume-analyzer',
@@ -210,7 +211,7 @@ export const PROJECTS: Project[] = [
       'Cleaning, visualization, and insights using Python.',
     longDescription:
       'Several data analysis notebooks and reports showing data cleaning, visualization and actionable insights.',
-    category: 'coding',
+    category: 'Data-Analysis',
     icon: '📊',
     tags: ['Python', 'Pandas', 'Data Viz'],
     repoLink: 'https://github.com/yourname/data-analysis',
