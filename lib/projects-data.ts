@@ -66,7 +66,7 @@ export const PROJECTS: Project[] = [
     tags: ['Guide', 'Premiere', 'Workflow'],
     repoLink: 'https://github.com/Siddhantpal08/Intermediate/tree/main/docs/Video-Editing-Guide',
     demoLink: 'https://siddhantpal08.github.io/Intermediate/Video-Editing-Guide/',
-    image: '/projects/vidportfolio.png',
+    image: '/projects/video.png',
   },
   {
     id: 'resp-portfolio',
@@ -80,7 +80,7 @@ export const PROJECTS: Project[] = [
     tags: ['HTML', 'CSS', 'Responsive'],
     demoLink: 'https://siddhantpal08.github.io/Intermediate/Video-Editing-Guide/responsive%20portfolio%20website/index.html',
     repoLink: 'https://github.com/Siddhantpal08/Intermediate/tree/main/docs/Video-Editing-Guide/responsive%20portfolio%20website',
-    image: '/projects/video-resume.png',
+    image: '/projects/vidportfolio.png',
   },
   {
     id: 'contact-form',
@@ -135,7 +135,7 @@ export const PROJECTS: Project[] = [
     tags: ['Blender', '3D', 'Animation'],
     repoLink: 'https://github.com/Siddhantpal08/3d-portfolio',
     video: 'https://www.youtube.com/watch?v=3D_VIDEO_ID',
-    image: '/projects/portfolio.jpg',
+    image: '/projects/donut.png',
   },
   {
     id: 'internship-tasks',
@@ -161,6 +161,7 @@ export const PROJECTS: Project[] = [
     tags: ['JS', 'Filtering'],
     demoLink: 'https://siddhantpal08.github.io/Intermediate/Laptop-Recommendation/',
     repoLink: 'https://github.com/Siddhantpal08/Intermediate/tree/main/docs/Laptop-Recommendation',
+    image: '/projects/laptop.png'
   },
   {
     id: 'megablog',
