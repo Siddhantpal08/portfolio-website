@@ -175,6 +175,7 @@ export const PROJECTS: Project[] = [
     tags: ['Fullstack', 'Blog'],
     repoLink: 'https://github.com/Siddhantpal08/Intermediate/tree/main/docs/MegaBlog',
     demoLink: 'https://siddhantpal08.github.io/Intermediate/MegaBlog/',
+    image: '/projects/megablog.png'
   },
   {
     id: 'ecommerce',
