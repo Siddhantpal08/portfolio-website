@@ -40,7 +40,7 @@ export const PROJECTS: Project[] = [
     images: ['/projects/mytube-1.png', '/projects/mytube-2.png'],
     repoLink: 'https://github.com/Siddhantpal08/MyTube',
     demoLink: 'https://my-tube-sand.vercel.app/',
-    video: 'https://www.youtube.com/watch?v=VIDEO_ID',
+    video: 'https://youtu.be/XT5m49Soj-0',
   },
   {
     id: 'jarvis-v1',
@@ -65,8 +65,8 @@ export const PROJECTS: Project[] = [
     category: 'coding',
     icon: '🎬',
     tags: ['Guide', 'Premiere', 'Workflow'],
-    repoLink: 'https://github.com/Siddhantpal08/Intermediate/tree/main/docs/Video-Editing-Guide',
-    demoLink: 'https://siddhantpal08.github.io/Intermediate/Video-Editing-Guide/',
+    repoLink: 'https://github.com/Siddhantpal08/Video-Editing-Guide',
+    demoLink: 'https://siddhantpal08.github.io/Video-Editing-Guide/#home',
     image: '/projects/video.png',
   },
   {
@@ -79,8 +79,8 @@ export const PROJECTS: Project[] = [
     category: 'coding',
     icon: '🌐',
     tags: ['HTML', 'CSS', 'Responsive'],
-    demoLink: 'https://siddhantpal08.github.io/Intermediate/Video-Editing-Guide/responsive%20portfolio%20website/index.html',
-    repoLink: 'https://github.com/Siddhantpal08/Intermediate/tree/main/docs/Video-Editing-Guide/responsive%20portfolio%20website',
+    demoLink: 'https://siddhantpal08.github.io/Video-Editing-Guide/responsive%20portfolio%20website/index.html',
+    repoLink: 'https://github.com/Siddhantpal08/Video-Editing-Guide/tree/main/responsive%20portfolio%20website',
     image: '/projects/vidportfolio.png',
   },
   {
@@ -93,8 +93,8 @@ export const PROJECTS: Project[] = [
     category: 'coding',
     icon: '📩',
     tags: ['Forms', 'Validation', 'Node'],
-    repoLink: 'https://github.com/Siddhantpal08/Intermediate/tree/main/docs/Video-Editing-Guide/contact%20form',
-    demoLink: 'https://siddhantpal08.github.io/Intermediate/Video-Editing-Guide/contact%20form/cf.html',
+    repoLink: 'https://github.com/Siddhantpal08/Video-Editing-Guide/tree/main/contact%20form',
+    demoLink: 'https://siddhantpal08.github.io/Video-Editing-Guide/contact%20form/cf.html',
     image: '/projects/contact.png'
   },
   {
@@ -121,7 +121,7 @@ export const PROJECTS: Project[] = [
     category: 'coding',
     icon: '📝',
     tags: ['Tauri', 'React', 'SQLite'],
-    repoLink: 'https://github.com/Siddhantpal08/Advanced/tree/main/notepadx',
+    repoLink: 'https://github.com/Siddhantpal08/NotepadX',
     image: '/projects/todo.jpg',
   },
   {
@@ -148,7 +148,7 @@ export const PROJECTS: Project[] = [
     category: 'coding',
     icon: '💼',
     tags: ['Internship', 'Web Dev'],
-    repoLink: 'https://github.com/Siddhantpal08/internship-tasks',
+    repoLink: 'https://github.com/Siddhantpal08/Internship-Tasks',
   },
   {
     id: 'laptop-recommender',
@@ -160,8 +160,8 @@ export const PROJECTS: Project[] = [
     category: 'coding',
     icon: '💻',
     tags: ['JS', 'Filtering'],
-    demoLink: 'https://siddhantpal08.github.io/Intermediate/Laptop-Recommendation/',
-    repoLink: 'https://github.com/Siddhantpal08/Intermediate/tree/main/docs/Laptop-Recommendation',
+    demoLink: 'https://siddhantpal08.github.io/Laptop-Recommendation-System/index.html',
+    repoLink: 'https://github.com/Siddhantpal08/Laptop-Recommendation-System',
     image: '/projects/laptop.png'
   },
   {
@@ -174,7 +174,7 @@ export const PROJECTS: Project[] = [
     category: 'coding',
     icon: '📰',
     tags: ['Fullstack', 'Blog'],
-    repoLink: 'https://github.com/Siddhantpal08/Intermediate/tree/main/docs/MegaBlog',
+    repoLink: 'https://github.com/Siddhantpal08/MegaBlog',
     demoLink: 'https://siddhantpal08.github.io/Intermediate/MegaBlog/',
     image: '/projects/megablog.png'
   },
@@ -188,7 +188,7 @@ export const PROJECTS: Project[] = [
     category: 'coding',
     icon: '🛒',
     tags: ['React', 'Ecommerce'],
-    repoLink: 'https://github.com/yourname/ecommerce-demo',
+    repoLink: 'https://github.com/Siddhantpal08/Ecom-Website',
     demoLink: 'https://store.example.com',
   },
   {
@@ -202,7 +202,7 @@ export const PROJECTS: Project[] = [
     icon: '🧰',
     tags: ['Utilities', 'JavaScript'],
     demoLink: 'https://tools.example.com',
-    repoLink: 'https://github.com/yourname/utility-tools',
+    repoLink: 'https://github.com/Siddhantpal08/Utility-Hub',
   },
   {
     id: 'data-analysis',
