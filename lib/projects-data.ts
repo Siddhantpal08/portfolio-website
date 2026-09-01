@@ -37,6 +37,7 @@ export const PROJECTS: Project[] = [
     icon: '✅',
     tags: ['Next.js', 'Node.js', 'Full-Stack', 'SaaS', 'Real-time'],
     demoLink: 'https://taskflow.siddhantpal.me',
+    repoLink: 'https://github.com/Siddhantpal08/TaskFlow',
   },
   {
     id: 'vaultkey',
@@ -49,6 +50,7 @@ export const PROJECTS: Project[] = [
     icon: '🔐',
     tags: ['Android', 'Security', 'AES-256', 'Zero-Knowledge', 'Kotlin'],
     demoLink: 'https://vaultkey.siddhantpal.me',
+    repoLink: 'https://github.com/Siddhantpal08/VaultKey',
   },
   {
     id: 'mytube',
