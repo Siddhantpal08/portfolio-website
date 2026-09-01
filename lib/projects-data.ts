@@ -27,6 +27,30 @@ export const CATEGORIES = [
 
 export const PROJECTS: Project[] = [
   {
+    id: 'taskflow',
+    title: 'TaskFlow – Smart Task Management',
+    description:
+      'Premium peer-to-peer task management and collaboration platform with notes, events, focus timer, and community board.',
+    longDescription:
+      'TaskFlow is a full-stack SaaS platform built with Next.js and a Node.js backend. It features real-time peer-to-peer task collaboration, a rich notes editor with locking and formatting, a Pomodoro-style focus timer, calendar event management, and a community board for sharing productivity tips. Designed with a premium dark UI, role-based access, and a fully responsive mobile layout.',
+    category: 'coding',
+    icon: '✅',
+    tags: ['Next.js', 'Node.js', 'Full-Stack', 'SaaS', 'Real-time'],
+    demoLink: 'https://taskflow.siddhantpal.me',
+  },
+  {
+    id: 'vaultkey',
+    title: 'VaultKey – Offline Password Manager',
+    description:
+      '100% offline, zero-knowledge Android password manager with AES-256 encryption and no cloud tracking.',
+    longDescription:
+      'VaultKey is a zero-trust, offline-first password manager for Android. It uses military-grade AES-256 encryption to store credentials entirely on-device — no cloud, no servers, no tracking. Features include secure vault management, a built-in password generator, breach alerts, biometric authentication, and a companion marketing website showcasing its security architecture.',
+    category: 'coding',
+    icon: '🔐',
+    tags: ['Android', 'Security', 'AES-256', 'Zero-Knowledge', 'Kotlin'],
+    demoLink: 'https://vaultkey.siddhantpal.me',
+  },
+  {
     id: 'mytube',
     title: 'MyTube – YouTube Clone',
     description:
